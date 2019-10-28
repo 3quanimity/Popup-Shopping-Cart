@@ -54,7 +54,7 @@ function pushItemToCart(event) {
 
   cartItems.innerHTML = arr.map(
     el => `<div class="cart-row">
-  <button class="btn-cart delete-element">بطلت</button>
+  <button class="btn-cart delete-element">Delete</button>
   <p>${el.amount}</p>
   <p>${el.price}</p>
   <p>${el.name}</p>
